@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isha Ojha - AI & ML Undergrad Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6c5ce7;
+            --secondary-color: #00cec9;
+            --bg-color: #0a0a0a;
+            --text-color: #ffffff;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 100px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: rgba(0,0,0,0.8);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+        nav ul li a {
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: all 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: var(--secondary-color);
+        }
+        section {
+            padding: 80px 0;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            color: var(--primary-color);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background-color: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 30px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: var(--secondary-color);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        footer {
+            background-color: rgba(0,0,0,0.8);
+            text-align: center;
+            padding: 20px 0;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li a {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+            <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1 data-aos="fade-down">Isha Ojha</h1>
+            <p data-aos="fade-up">Artificial Intelligence and Machine Learning Undergrad</p>
+            <p data-aos="fade-up" data-aos-delay="200">Passionate Competitive Coder Driven by Algorithmic Excellence</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2 data-aos="fade-right">About Me</h2>
+                <p data-aos="fade-left">I'm an AI and ML undergraduate student with a passion for competitive coding and algorithmic excellence. Currently pursuing my B.Tech at Dr. A. P. J. Abdul Kalam Technical University, I'm always eager to take on new challenges and expand my knowledge in the field of technology.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2 data-aos="fade-right">Education</h2>
+                <div class="grid">
+                    <div class="card" data-aos="zoom-in">
+                        <h3><i class="fas fa-university"></i> B.Tech</h3>
+                        <p>Dr. A. P. J. Abdul Kalam Technical University</p>
+                        <p>10/2022 - Present</p>
+                    </div>
+                    <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                        <h3><i class="fas fa-school"></i> Intermediate</h3>
+                        <p>City Montessori School, Mahanagar</p>
+                        <p>2022, Percentage: 94.25</p>
+                    </div>
+                    <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                        <h3><i class="fas fa-school"></i> High School</h3>
+                        <p>City Montessori School, Mahanagar</p>
+                        <p>2020, Percentage: 93.6</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <div class="container">
+                <h2 data-aos="fade-right">Achievements</h2>
+                <div class="grid">
+                    <div class="card" data-aos="flip-left">
+                        <h3><i class="fas fa-award"></i> WeForShe 2024 Myntra HackerRamp</h3>
+                        <p>Pre-finalist among 19,000 competing teams</p>
+                    </div>
+                    <div class="card" data-aos="flip-left" data-aos-delay="200">
+                        <h3><i class="fas fa-code"></i> TCS CodeVita Season 11</h3>
+                        <p>Rank 2670 in Round 1, Rank 1778 in Round 2</p>
+                    </div>
+                    <div class="card" data-aos="flip-left" data-aos-delay="400">
+                        <h3><i class="fas fa-medal"></i> Elementary Mathematics Olympiad</h3>
+                        <p>3rd position in Inter-Campus competition</p>
+                    </div>
+                    <div class="card" data-aos="flip-left" data-aos-delay="600">
+                        <h3><i class="fas fa-users"></i> House Captain</h3>
+                        <p>Led Hope House initiatives at City Montessori School, Jopling Road</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 data-aos="fade-right">Projects</h2>
+                <div class="card" data-aos="fade-up">
+                    <h3><i class="fas fa-laptop-code"></i> FashionForward</h3>
+                    <p>06/2024 - Present</p>
+                    <p>Uses BERT and CLIP for advanced text and image processing, with Matplotlib, Pandas, NumPy, and Streamlit for data visualization and interactive features. Integrates with Stability API to create AI-driven designs by merging product text and images.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 data-aos="fade-right">Technical Skills</h2>
+                <div class="skills">
+                    <span class="skill" data-aos="zoom-in">C</span>
+                    <span class="skill" data-aos="zoom-in">Python</span>
+                    <span class="skill" data-aos="zoom-in">Java</span>
+                    <span class="skill" data-aos="zoom-in">SQL</span>
+                    <span class="skill" data-aos="zoom-in">Data Structures</span>
+                    <span class="skill" data-aos="zoom-in">Algorithms</span>
+                    <span class="skill" data-aos="zoom-in">HTML</span>
+                    <span class="skill" data-aos="zoom-in">CSS</span>
+                    <span class="skill" data-aos="zoom-in">FastAPI</span>
+                    <span class="skill" data-aos="zoom-in">SQLite</span>
+                    <span class="skill" data-aos="zoom-in">Problem Solving</span>
+                    <span class="skill" data-aos="zoom-in">LLM</span>
+                    <span class="skill" data-aos="zoom-in">Stable Diffusion</span>
+                    <span class="skill" data-aos="zoom-in">Langchain</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contact: ishaojha41@gmail.com | 08317000270 | Lucknow, India</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/isha-ojha" target="_blank" rel="noopener noreferrer" style="color: var(--secondary-color);">linkedin.com/in/isha-ojha</a></p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+</html>
